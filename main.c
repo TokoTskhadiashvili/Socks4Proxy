@@ -158,5 +158,7 @@ int main(void) {
         close(client_sock);
     }
 
+    close(server_sock);
+
     return 0;
 }
