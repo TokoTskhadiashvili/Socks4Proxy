@@ -2,7 +2,7 @@
 
 ### The reason behind this project
 
-Sometimes IoT devices run on what I call `Minimal OS`. This type of OS often is a small `Android` variant which does not even have a package manager. Also, there are not many commands available in the shell even when the user is `root`. For example, in many cases, IoT devices lack `ping`, `arp`, `netstat` and even `ncat`/`nc`. This makes lateral movement and network reconnaissance almost impossible because tools like `nmap` can't be used.
+Sometimes IoT devices run on what I call `Minimal OS`. This type of OS often is a small `Android` variant which does not even have a package manager. Also, there are not many commands available in the shell even when the user is `root`. For example, in many cases, IoT devices lack `ping`, `arp`, `netstat`, `ncat`, `nc` and even `busybox`. This makes lateral movement and network reconnaissance almost impossible because tools like `nmap` can't be used.
 
 On the other hand, it's possible to sideload `termux.apk` file and install tools inside the `termux` environment but the user can easily detect unwanted application on the system.
 
