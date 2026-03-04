@@ -13,7 +13,7 @@ That's why I wrote socks4 server. This can be installed on the compromised devic
 In order to use this Proxy, compile it with `gcc` compiler on `Linux` machine like this:
 
 ```bash
-gcc main.c -o main.elf
+arm-linux-gnueabihf-gcc main.c -o main.elf
 ```
 
 Now, `main.elf` file can be used as a socks4 proxy.
